@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bannar-section{
+    background-image: url("img/slider-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.bg-dark {
+    --bs-bg-opacity: none !important;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
