@@ -1,15 +1,236 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:  sans-serif;
 }
-.bannar-section{
+
+.bannar-section {
     background-image: url("img/slider-bg.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
+
 .bg-dark {
     --bs-bg-opacity: none !important;
-    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.banner-content {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+h2.banner-heading {
+    font-size: 3rem;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+p.banner-content-para {
+    font-size: 1.1rem;
+    color: white;
+}
+button.banner-btn {
+    width: 150px;
+    height: 49px;
+    border: 1px solid coral;
+    background-color: transparent;
+    color: coral;
+    border-radius: 4px;
+}
+button.banner-btn:hover {
+    
+    border: 1px solid coral;
+    background-color: coral;
+    color: white;
+    border-radius: 4px;
+}
+
+/* .......................................fnished-banner................................................................ */
+.shop-main {
+    margin: 50px 0px;
+}
+.card-main {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+h2.shop-heading {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 2rem;
+}
+
+.shop-card-one {
+    background-color: #eeeeee;
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+    position: relative;
+    margin: 20px;
+}
+h5.card-content-one {
+    width: 50px;
+    height: 50px;
+    border: 2px soild black;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 12px 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+img.card-img {
+    width: 150px;
+    margin: 50px 42px;
+}
+.shop-card-two {
+    display: flex;
+    justify-content: space-around;
+}
+p.shop-content {
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+p.price {
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+span.number {
+    color: coral;
+}
+
+/* .......................................fnished-shop................................................................ */
+
+button.shop-btn {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    background-color: coral;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img.abot-img-one {
+    width: 30%;
+    margin: 10px 20px;
+}
+h2.about-heading {
+    font-size: 2rem;
+}
+button.about-btn {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: coral;
+    border: none;
+    border-radius: 4px;
+}
+.about-content {
+    margin: 10px 20px;
+}
+/* .......................................fnished-about................................................................ */
+.offer-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+.offer-img-one {
+    width: 500px;
+    height: auto;
+}
+img.offer-img1 {
+    max-width: 100%;
+    height: 100%;
+}
+.offer-img-two {
+    width: 500px;
+    height: auto;
+}
+img.offer-img2 {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+img.offer-img3 {
+    width: 100%;
+    margin-left: 15px;
+}
+
+/* .......................................fnished-offer................................................................ */
+
+h2.blog-heading {
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+.blog-one {
+    width: 600px;
+    height: auto;
+    border: 2px solid black;
+    background-color: lightgray;
+    border: none;
+    margin: 10px 0px;
+}
+img.blog-img {
+    max-width: 100%;
+}
+h1.blog-one-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+p.blog-one-content {
+    font-size: 1rem;
+    padding: 0px 10px;
+    margin: 0px;
+}
+button.blog-btn-one {
+    /* padding: 15px; */
+    margin: 20px 10px;
+    width: 140px;
+    height: 45px;
+    background-color: transparent;
+    color: black;
+}
+.blog-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* .......................................fnished-................................................................ */
+.testimonial {
+    margin: 50px 10px;
+}
+.testim-card {
+    max-width: 900px;
+    height: auto;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    margin: auto;
+}
+img.testi-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 10px;
 }
