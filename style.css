@@ -185,7 +185,7 @@ h2.blog-heading {
     border: 2px solid black;
     background-color: lightgray;
     border: none;
-    margin: 10px 0px;
+    margin: 10px 10px;
 }
 img.blog-img {
     max-width: 100%;
@@ -217,12 +217,19 @@ button.blog-btn-one {
 .testimonial {
     margin: 50px 10px;
 }
+
+h2.testi-heading {
+    text-align: center;
+    padding: 10ox;
+    font-size: 2rem;
+}
 .testim-card {
     max-width: 900px;
     height: auto;
     border: 2px solid black;
-    background-color: blanchedalmond;
+    background-color: black;
     margin: auto;
+    border-radius: 6px;
 }
 img.testi-img {
     width: 200px;
@@ -233,4 +240,109 @@ img.testi-img {
     margin-right: auto;
     margin: auto;
     padding: 10px;
+}
+h3.testi-heading-two {
+    font-size: 2rem;
+    text-align: center;
+    color: coral;
+}
+p.testi-content {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+span.dabul {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.testi-btn {
+    text-align: center;
+    margin: 10px 0px;
+}
+button.testi-one-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: coral;
+    border-radius: 2px;
+}
+.footer{
+    background-color: black;
+}
+
+/* .......................................fnished-................................................................ */
+.footer-two {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+h2.insta-heading {
+    color: white;
+}
+img.insta-img-1 {
+    width: 50px;
+    height: auto;
+}
+.instagra-box {
+    width: 75px;
+    height: 76px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.insta-content {
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+}
+.insta-one {
+    display: flex;
+    flex-wrap: wrap;
+}
+img.insta-img-2 {
+    width: 34px;
+}
+h2.heading-menu {
+    color: white;
+}
+li {
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+h2.heading-about {
+    color: white;
+}
+p.content-about {
+    color: white;
+    font-size: 1.1rem;
+}
+ul {
+    display: contents;
+}
+h2.contact-heading {
+    color: white;
+}
+.icon-all {
+    padding: 10px;
+}
+span.icon-hai {
+    padding: 0px 10px;
+}
+i.fa-solid.fa-location-dot {
+    color: white;
+}
+i.fa-solid.fa-phone {
+    color: white;
+}
+i.fa-solid.fa-envelope {
+    color: white;
 }
